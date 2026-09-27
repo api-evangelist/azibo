@@ -1,0 +1,22 @@
+generated: '2026-09-27'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.azibo.com/pricing
+sources:
+- https://www.azibo.com/pricing
+- https://www.azibo.com/blog/property-management-software-pricing
+- https://www.azibo.com/blog/can-you-write-off-hoa-fees-on-rental-property
+- https://www.azibo.com/blog/customizable-late-fees
+name: Azibo pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Collaborate
+  price_text: $99 Per seat, per year
+  price: 99
+  description: Add collaborators to help manage your properties.
+- name: Premium onboarding
+  price_text: $300 up to 100 units
+  price: 300
+  description: Save time by letting our team onboard your properties and tenants.
+docs: https://www.azibo.com/pricing

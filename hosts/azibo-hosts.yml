@@ -1,0 +1,63 @@
+generated: '2026-09-27'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 3
+  own: 3
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - identity
+  - website
+hosts:
+- host: api.azibo.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: azibo.com
+  role: api
+  relation: own
+- host: app.azibo.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Login
+  serves: []
+  registrable_domain: azibo.com
+  role: identity
+  relation: own
+- host: www.azibo.com
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Newsroom
+  - Leadership
+  - Website
+  - Documentation
+  - Pricing
+  - About
+  - Contact
+  - Roadmap
+  - Careers
+  - SignUp
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: azibo.com
+  role: website
+  relation: own
