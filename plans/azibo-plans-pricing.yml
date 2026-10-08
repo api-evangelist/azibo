@@ -20,3 +20,22 @@ plans:
   price: 300
   description: Save time by letting our team onboard your properties and tenants.
 docs: https://www.azibo.com/pricing
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Collaborate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Premium onboarding
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
